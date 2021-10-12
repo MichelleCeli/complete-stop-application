@@ -9,6 +9,7 @@
   <link rel="stylesheet" href=".\css\styles.css"> 
   <link rel="stylesheet" href=".\css\stop-information.css"> 
   <link rel="stylesheet" href=".\css\comment-section.css"> 
+  <link rel="stylesheet" href=".\css\orders-section.css"> 
  
   <title>Complete stop</title>
 </head>
@@ -29,8 +30,8 @@
       </div>
       
       <div id="address">
-        <h2 id="street-pc">Ten Kate straat 42 1053 CG</h2>
-        <h2 id="city-country">Amsterdam, Netherlands</h2>
+        <h3 id="street-pc">Ten Kate straat 42 1053 CG</h3>
+        <h3 id="city-country">Amsterdam, Netherlands</h3>
       </div>
 
       <div id="coordinates">
@@ -45,6 +46,35 @@
     <div id ="comment">
       <p>Emmers omwisselen.</p>
     </div>
+  </div>
+
+  <div id="orders-section">
+    <div id="title-report">
+     <!--  <div id="space"></div> -->
+      <h2>CHECK ORDERS</h2>
+      <!-- <button id="report-btn">report issues</button> -->
+    </div>
+
+    <div class="order">
+      <img class="type-img" src="img/type-img.png" alt="Type">
+      <h1 class="order-title">koffiedrab</h1>
+      <h2>quantity:</h2>
+      <button class="minus"></button>
+      <input type="number" class="quantity-number">
+      <button class="plus"></button>
+    </div>
+
+    <div class="order">
+      <img class="type-img" src="img/type-img.png" alt="Type">
+      <h1 class="order-title">koffiedrab</h1>
+      <h2>quantity:</h2>
+      <button class="minus"></button>
+      <input type="number" class="quantity-number">
+      <button class="plus"></button>
+    </div>
+
+    <button id="complete-stop">complete stop</button>
+
   </div>
 
  

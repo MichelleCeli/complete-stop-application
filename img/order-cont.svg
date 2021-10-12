@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="374" height="119" viewBox="0 0 374 119">
+  <defs>
+    <filter id="Rechteck_15" x="0" y="0" width="374" height="119" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Rechteck_15)">
+    <rect id="Rechteck_15-2" data-name="Rechteck 15" width="344" height="89" rx="14" transform="translate(15 15)" fill="#fff"/>
+  </g>
+</svg>

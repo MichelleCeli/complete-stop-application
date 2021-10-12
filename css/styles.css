@@ -17,6 +17,12 @@ h1 {
     line-height: 1em;
 }
 h2 {
+    font-size: 1.1em;
+    font-weight: normal;
+    color: #8E99AF;
+}
+
+h3 {
     font-size: 1em;
     font-weight: normal;
 }
