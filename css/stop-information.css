@@ -3,7 +3,7 @@
     flex-direction: row;
     justify-content: space-evenly;
     width: 100%;
-   /*  height: 134px; */
+    height: 8em; 
     padding: 0.5em 1em 0.25em; 
     box-sizing: border-box;
     border-radius: 1.5em 1.5em 0px 0px;
@@ -11,7 +11,8 @@
     }
 
 #avatar {
-height: 50px;
+height: 60px;
+align-self: center;
 }
 
 #stop-information {
