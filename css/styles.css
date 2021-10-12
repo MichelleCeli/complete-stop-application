@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: linear-gradient(to right, #21978B , #48BF95);
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #393939;
+}
+h1 {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+h2 {
+    font-size: 1em;
+    font-weight: normal;
+}
+h5 {
+    font-size: 0.8em;
+    font-weight: normal;
+    color: #8E99AF;
+}
+
+#header-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 58px;
+    /* height: 10%; */
+}
+
+#header-container h1{
+    color: white;
+    font-weight: normal;
+}

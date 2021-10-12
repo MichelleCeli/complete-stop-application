@@ -6,18 +6,39 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <link rel="stylesheet" href=".\css\styles.css"> 
+  <link rel="stylesheet" href=".\css\stop-information.css"> 
  
   <title>Complete stop</title>
 </head>
 <body>
-  <header>
+  <header id="header-container">
     
-    <p>hello world</p>
+    <h1>COMPLETE YOUR STOP</h1>
 
   </header>
 
- 
- <!--  <script src=".\js\home.js"></script>  -->
+  <div id="information-container">
+    <img id="avatar" src="img/avatar_null.png" alt="Avatar">
+    <div id="stop-information">
+      
+      <div id="name-call">
+        <h1 id="stop-name">De Other Koffie Place</h1>
+        <button id="call-btn">call</button>
+      </div>
+      
+      <div id="address">
+        <h2 id="street-pc">Ten Kate straat 42 1053 CG</h2>
+        <h2 id="city-country">Amsterdam, Netherlands</h2>
+      </div>
+
+      <div id="coordinates">
+        <h5>Coordinates:</h5>
+        <h5>52.36607, 4.8672816</h5>
+      </div>
+      
+    </div>
+  </div>
 
  
  <script src=".\js\get-data.js"></script>
