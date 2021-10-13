@@ -5,15 +5,16 @@
     align-items: center;
 }
 
-#orders-listed {
-    display: flex;
-    flex-direction: column;
-    background-color: white;
+#comment {
+    background-color: #EAF5F4;
+    border-radius: 1em;
+    text-align: center;
+    justify-content: center;
     align-items: center;
-    max-width: 100%;
-    overflow-x: hidden;
-    overflow-y: auto;
-    white-space: nowrap;
+    width: 70%;
+    display: flex;
+    padding: 1em 1.25em 1em;
+    margin: 0.8em 1.25em 0;
 }
 
 #title-report {
@@ -21,14 +22,11 @@
     justify-content: center;
 }
 
-#title-report div{
-    /* flex-grow: 1; */
-}
-
 #title-report h2 {
     /* flex-grow: 2; */
     /* flex-grow: 3; */
     text-align: center;
+    margin-top: 0.6em;
 }
 
 #report-btn {
@@ -45,6 +43,19 @@
      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
      font-size: 0.85em; 
 }
+
+#orders-listed {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    align-items: center;
+    max-width: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    white-space: nowrap;
+}
+
+
 
 .order {
      background-color: white; 

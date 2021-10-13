@@ -53,3 +53,7 @@ align-self: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
     font-size: 0.85em; 
 }
+
+#call-btn:disabled {
+    background-color: rgba(142, 153, 175, 0.4);
+}
