@@ -134,3 +134,17 @@
     position: fixed;
     bottom: 95px;
 }
+
+@media only screen and (min-width: 600px) {
+    #orders-section{
+        width: 60%;
+        margin: auto;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    #orders-section{
+        width: 40%;
+        margin: auto;
+    }
+}

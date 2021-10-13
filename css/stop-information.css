@@ -57,3 +57,18 @@ align-self: center;
 #call-btn:disabled {
     background-color: rgba(142, 153, 175, 0.4);
 }
+
+@media only screen and (min-width: 600px) {
+    #information-container{
+        width: 60%;
+        margin: auto;
+    }
+   
+}
+
+@media only screen and (min-width: 992px) {
+    #information-container{
+        width: 40%;
+        margin: auto;
+    }
+}
