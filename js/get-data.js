@@ -58,6 +58,13 @@ var order_quantity;
   } else {
     document.getElementById("comment-text").innerHTML = comment;  
   }
+
+  for (let i in data.stops[stop_number].orders) {
+    console.log(data.stops[stop_number].orders[i].stream_type);
+      
+    
+
+  } 
   
 
 
