@@ -11,7 +11,9 @@
     background-color: white;
     align-items: center;
     max-width: 100%;
+    overflow-x: hidden;
     overflow-y: auto;
+    white-space: nowrap;
 }
 
 #title-report {
