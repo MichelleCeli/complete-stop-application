@@ -22,7 +22,7 @@ align-self: center;
     justify-content: space-between;
 }
 
-#name-call{
+#name-call {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -32,27 +32,24 @@ align-self: center;
     padding-right: 0.5em;
 }
 
-#address{
+#address {
     display: flex;
     flex-direction: column;
 }
 
-#coordinates{
+#coordinates {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
 #call-btn {
-  /*   background-image: url(/img/call.png); */
     background-color: #37CCBE;
     border-radius: 1em;
-   /*  background-repeat: no-repeat; */
-   /*  background-size: cover; */
     width: 90px;
     height: 25px;
     border: none;
-     color: white; 
-     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
-     font-size: 0.85em; 
+    color: white; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    font-size: 0.85em; 
 }

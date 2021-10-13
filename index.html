@@ -10,6 +10,7 @@
   <link rel="stylesheet" href=".\css\stop-information.css"> 
   <link rel="stylesheet" href=".\css\comment-section.css"> 
   <link rel="stylesheet" href=".\css\orders-section.css"> 
+  <link rel="stylesheet" href=".\css\nav.css"> 
  
   <title>Complete stop</title>
 </head>
@@ -55,27 +56,49 @@
       <!-- <button id="report-btn">report issues</button> -->
     </div>
 
-    <div class="order">
-      <img class="type-img" src="img/type-img.png" alt="Type">
-      <h1 class="order-title">koffiedrab</h1>
-      <h2>quantity:</h2>
-      <button class="minus"></button>
-      <input type="number" class="quantity-number">
-      <button class="plus"></button>
-    </div>
+    <div id="orders-listed">
+      <div class="order">
+        <img class="type-img" src="img/type-img.png" alt="Type">
+        <h1 class="order-title">koffiedrab</h1>
+        <h2>quantity:</h2>
+        <button class="minus"></button>
+        <input type="number" class="quantity-number">
+        <button class="plus"></button>
+      </div>
 
-    <div class="order">
-      <img class="type-img" src="img/type-img.png" alt="Type">
-      <h1 class="order-title">koffiedrab</h1>
-      <h2>quantity:</h2>
-      <button class="minus"></button>
-      <input type="number" class="quantity-number">
-      <button class="plus"></button>
+      <div class="order">
+        <img class="type-img" src="img/type-img.png" alt="Type">
+        <h1 class="order-title">koffiedrab</h1>
+        <h2>quantity:</h2>
+        <button class="minus"></button>
+        <input type="number" class="quantity-number">
+        <button class="plus"></button>
+      </div>
+
     </div>
 
     <button id="complete-stop">complete stop</button>
 
   </div>
+
+  <nav id="navigation">
+      <a class="nav-element">
+        <img .class="nav-icon" src="img/icon.png">
+        <h4>map</h4>
+      </a>
+      <a class="nav-element">
+        <img .class="nav-icon" src="img/icon.png">
+        <h4>calender</h4>
+      </a>
+      <a class="nav-element nav-active">
+        <img .class="nav-icon" src="img/icon-active.png">
+        <h4>current stop</h4>
+      </a>
+      <a class="nav-element">
+        <img .class="nav-icon" src="img/icon.png">
+        <h4>profile</h4>
+      </a>
+  </nav>
 
  
  <script src=".\js\get-data.js"></script>

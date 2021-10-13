@@ -5,6 +5,8 @@
 
 body {
     background-image: linear-gradient(to right, #21978B , #48BF95);
+    /* margin: 0 0 80px 0; */
+    /* max-width: 100%; */
 }
 
 h1, h2, h3, h4, h5 {
@@ -17,7 +19,7 @@ h1 {
     line-height: 1em;
 }
 h2 {
-    font-size: 1.1em;
+    font-size: 1.3em;
     font-weight: normal;
     color: #8E99AF;
 }
@@ -25,6 +27,12 @@ h2 {
 h3 {
     font-size: 1em;
     font-weight: normal;
+}
+
+h4 {
+    font-size: 1em;
+    font-weight: normal;
+    color: #8E99AF;
 }
 h5 {
     font-size: 0.8em;
