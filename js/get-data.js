@@ -13,6 +13,8 @@ var longitude;
 
 var comment;
 
+var orders_listed;
+var order_div;
 var order_type;
 var order_quantity;
 
@@ -59,10 +61,25 @@ var order_quantity;
     document.getElementById("comment-text").innerHTML = comment;  
   }
 
+  orders_listed = document.getElementById("orders-listed");
+  order_div = document.getElementById("order1");
   for (let i in data.stops[stop_number].orders) {
     console.log(data.stops[stop_number].orders[i].stream_type);
       
-    
+    if(i == 0){
+    order_div.children[1].innerHTML = data.stops[stop_number].orders[i].stream_type;
+    order_div.children[4].defaultValue = data.stops[stop_number].orders[i].quantity;
+    }
+    else {
+    var nextOrder;
+    nextOrder = $( "#order1" ).clone().appendTo( "#orders-listed" );
+    console.log("order: " + nextOrder);
+    orders_listed.children[i].children[1].innerHTML = data.stops[stop_number].orders[i].stream_type;
+    orders_listed.children[i].children[4].innerHTML = data.stops[stop_number].orders[i].stream_type;
+    //nextOrder.children[1].innerHTML = data.stops[stop_number].orders[i].stream_type;
+   /*  nextOrder = order_div.clone
+    nextOrder = node.appendChild(textnode) */
+    }
 
   } 
   
