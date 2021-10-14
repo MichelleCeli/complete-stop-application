@@ -43,11 +43,8 @@
     </div>
   </div>
 
-
-
   <div id="orders-section">
-
-
+    
       <div id ="comment">
         <p id="comment-text"></p>
       </div>
@@ -65,53 +62,11 @@
         <h1 class="order-title"></h1> 
         <h2>quantity:</h2>
         <button class="minus"></button>
-        <input type="text" class="quantity-number" pattern="[0-9]">
+        <input type="text" class="quantity-number" pattern="[0-9]" onkeypress=" return isNumber(event)">
         <button class="plus"></button>
       </li>
 
-     <!--  <li class="order" id="order2">
-        <img class="type-img" src="img/type-img.png" alt="Type">
-        <h1 class="order-title">koffiedrab</h1>
-        <h2>quantity:</h2>
-        <button class="minus"></button>
-        <input type="number" class="quantity-number">
-        <button class="plus"></button>
-      </li> -->
-
     </ul>
-
-   <!--  <div id="orders-listed">
-
-      <div class="order" id="order1">
-        <img class="type-img" src="img/type-img.png" alt="Type">
-        <h1 class="order-title">koffiedrab</h1>
-        <h2>quantity:</h2>
-        <button class="minus"></button>
-        <input type="number" class="quantity-number">
-        <button class="plus"></button>
-      </div>
-
-      <div class="order" id="order2">
-        <img class="type-img" src="img/type-img.png" alt="Type">
-        <h1 class="order-title">koffiedrab</h1>
-        <h2>quantity:</h2>
-        <button class="minus"></button>
-        <input type="number" class="quantity-number">
-        <button class="plus"></button>
-      </div>
-
-    </div> -->
-
-   <!--    <div class="order">
-        <img class="type-img" src="img/type-img.png" alt="Type">
-        <h1 class="order-title">koffiedrab</h1>
-        <h2>quantity:</h2>
-        <button class="minus"></button>
-        <input type="number" class="quantity-number">
-        <button class="plus"></button>
-      </div> -->
-
-    
 
     <button id="complete-stop">complete stop</button>
 
@@ -138,6 +93,7 @@
 
  
  <script src=".\js\get-data.js"></script>
+ <script src=".\js\event-manager.js"></script>
  <script src=".\js\calc-values.js"></script>
 
 </body>

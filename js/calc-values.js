@@ -15,18 +15,11 @@ function calcOrderSection(){
      document.getElementById("orders-section").style.height = window_height - header_height - info_height + 'px'; 
     
     }
-    /* 
-     document.getElementById("navbar").style.backgroundSize = "cover"; 
-     document.getElementById("navbar").style.backgroundPosition = "left"; 
-    
-     */
-
 
       window.addEventListener('resize', function () { 
         "use strict";
         window.location.reload(); 
-        console.log("resized");
-        calcHeaderValues();
+        calcOrderSection();
     }); 
      
     

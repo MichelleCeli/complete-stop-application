@@ -84,6 +84,7 @@
     }
 .order-title {
     grid-area: title;
+    margin-bottom: 0.2em;
 }
 
 .order h2 {
